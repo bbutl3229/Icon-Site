@@ -25,12 +25,12 @@ app.get('/about', (req, res) => {
   res.render('pages/about', { title: 'About' });
 });
 
-app.get('/services', (req, res) => {
-  res.render('pages/services', { title: 'Services' });
+app.get('/specials', (req, res) => {
+  res.render('pages/specials', { title: 'Specials' });
 });
 
-app.get('/blog', (req, res) => {
-  res.render('pages/blog', { title: 'Blog' });
+app.get('/usage', (req, res) => {
+  res.render('pages/usage', { title: 'Usage' });
 });
 
 app.get('/contact', (req, res) => {
