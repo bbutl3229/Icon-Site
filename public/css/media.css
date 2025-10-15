@@ -6,6 +6,10 @@
 }
 
 @media screen and (max-width: 768px) { /* Tablets and Larger Phones */
+    nav {
+        justify-content: center;
+    }
+
     nav a {
         font-size: 13px;
     }
@@ -17,6 +21,10 @@
 }
 
 @media screen and (max-width: 1024px) { /* Laptops, Larger Tablets and Small Desktops */
+    nav {
+        justify-content: center;
+    }
+
     .searchBar input {
         width: 270px;
         height: 48px;
@@ -25,7 +33,7 @@
 
 @media screen and (max-width: 1366px) { /* Large Desktop Monitors */
     .searchBar input {
-        width: 300px;
+        width: 320px;
         height: 53px;
     }
 }
