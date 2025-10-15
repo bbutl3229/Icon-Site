@@ -35,7 +35,6 @@ nav a:hover {
 
 .searchBar {
     position: absolute;
-    top: 26%;
     animation: searchSlide 1.1s forwards;
     width: 100%;
     text-align: center;
