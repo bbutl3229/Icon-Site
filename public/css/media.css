@@ -8,6 +8,7 @@
 @media screen and (max-width: 768px) { /* Tablets and Larger Phones */
     nav {
         justify-content: center;
+        text-align: center;
     }
 
     nav a {
@@ -17,6 +18,31 @@
     .searchBar input {
         width: 190px;
         height: 42px;
+    }
+
+    .searchBar input:hover {
+        width: 345px;
+    }
+
+    #iconContainer {
+        width: 82%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 23px;
+        width: 300px;
+    }
+
+    .usageInf h1 {
+        font-size: 15px;
+    }
+
+    .usageInf p {
+        width: 495px;
+        font-size: 12px;
+        width: 270px;
     }
 }
 
@@ -29,11 +55,21 @@
         width: 270px;
         height: 48px;
     }
+
+    #iconContainer {
+        margin-top: 220px;
+    }
 }
 
 @media screen and (max-width: 1366px) { /* Large Desktop Monitors */
     .searchBar input {
         width: 320px;
         height: 53px;
+    }
+
+    #iconContainer {
+        width: 82%;
+        text-align: center;
+        margin-top: 275px;
     }
 }
